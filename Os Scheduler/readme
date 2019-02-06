@@ -1,0 +1,9 @@
+You can use terminal to run the main.cpp. Here is how:
+  1. Open terminal in the directory of the main.cpp. The definition.txt and the code
+  files also needs to be in this directory.
+  2. Execute ‘g++ main.cpp -o OsScheduler’
+  3. Execute ‘./OsScheduler’
+  4. the result should be in the same directory with the main.cpp, named
+  ‘output.txt’
+  
+
