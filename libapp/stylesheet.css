@@ -1,0 +1,137 @@
+
+
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: -8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: -8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #296576;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #36859c;
+}
+select{
+    width: 70%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.horizontal-menu {
+	padding: 12,5px;
+   
+}
+
+.horizontal-menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    background-color: #CC6D6F;
+
+}
+
+.horizontal-menu a:hover {
+    background-color: #ff999b; /* Dark grey background on mouse-over */
+}
+
+h1 {
+
+	font-size: 50px ;
+	color: #296576;
+}
+h2{
+	font-size: 30px;
+	color: #893032;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    
+}
+
+.right {
+    right: 0;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#liste {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#liste td, #liste th {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+#liste th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #CC6D6F;
+    color: white;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 3px;
+} 
+
+body {
+    margin-left: 100px;
+	width: 900px;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #efefef;
+	font-size: 24px;
+}
